@@ -4,13 +4,13 @@ PREREQUISITES:
 3. We only need to concern about High and Critical vulnerabilities
 
 TASK:
-1. Perform automates scan using Nessus -> Upload to Faraday for analysis
-2. From that, manually assess high/critical vunerabilities
-3. Audit any web applications found on the server
+1. Perform automates scan using Nessus -> Upload to Faraday for analysis        Done
+2. From that, manually assess high/critical vunerabilities                      In Progress
+3. Audit any web applications found on the server                               Next tobe done
 
 WAY OF WORK NEED TO FOLLOW:
-1. Automated scan policy: Policy_NS_Q3
-2. Manual assessment policy: Policy_VA_Q3
+1. Automated scan policy: Policy_NS_Q3                                          Done
+2. Manual assessment policy: Policy_VA_Q3                                       In Progress
 
 Final Output:
-1. Prepare a assessment report
+1. Prepare a assessment report                                                  
