@@ -36,3 +36,40 @@ III. Instruction
 
   + [ ] Running a directory scan (dirb) against DMZIServer using the Udacity wordlist
   + [ ] Reveal root access to the DMZIserver
+
+> Addition
+  + [ ] Research software versions on all servers (Win 10, DMZI, Debian x64)
+
+III. Exploitation
+> 1 server has a vulnerability version of Xampp -> You need to exploit this and gain access to the target.
+  + [ ] Gain access to the target through Xampp vulnerability (Maybe this vul is on the win10 machine)
+
+> The SSH credentials for the payroll server (Debianx64DMZOnCloudNew) can also be cracked. From the course, we know the username is admin123, and we need to try and crack the password. Use the Hydra tool against the Udacity wordlist (/usr/share/wordlist/Udacity.txt) to crack the password and gain ssh access. If you are unsure what syntax to use to run the password crack, use the help (-h) command or research the world wide web.
+  + [ ] Gain unauthenticated access to the employee workstation (win-10) by exploiting a vulnerable application. (XAMPP)
+  + [ ] Crark the SSH root credentials to payroll server (Debianx64DMZOnCloudNew)
+
+IV. Reporting
+> We will need: 
+1. Methodology
+2. Screenhots
+3. Documentation through the assessment.
+4. The report should contains these sections:
+  - Security Engagement Summary
+    + Engagement Overview
+    + Scope
+    + Risk Analysis
+    + Recommendations
+  - Significant Vulnerabilities Summary
+    + High-Risk Vulnerabilities
+    + Medium Risk Vulnerabilities
+    + Low-Risk Vulnerabilities
+  - Significant Vulnerability Details
+
+  - Appendix A: Security Analysis Methodology
+
+    + Virtual Machine and Vulnerable Applications
+    + Assessment Tools Selection
+    + Red Team Operations Assessment
+      * Reconnaissance
+      * Scanning
+      * Exploitation
