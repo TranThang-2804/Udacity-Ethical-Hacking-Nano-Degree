@@ -21,9 +21,9 @@ II. Information about the system
 III. Instruction
 1. Recon
   - Checking public webpage (https://learnaboutsecurity.com/) information
-    + [ ] Search for the website on Shodan or other recon websites
-    + [ ] Discover the DNS information of the website
-    + [ ] Identify web technologies the website uses
+    + [ x ] Search for the website on Shodan or other recon websites
+    + [ x ] Discover the DNS information of the website
+    + [ x ] Identify web technologies the website uses
 
 2. Scanning
 > You will need to complete vulnerability scans against the public website (learnaboutsecurity.com), the DMZ servers (DMZIServer and Debianx64DMZOnCloudNew), and the employee workstation (Win-10).
