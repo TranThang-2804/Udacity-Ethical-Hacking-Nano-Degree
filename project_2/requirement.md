@@ -28,25 +28,25 @@ III. Instruction
 2. Scanning
 > You will need to complete vulnerability scans against the public website (learnaboutsecurity.com), the DMZ servers (DMZIServer and Debianx64DMZOnCloudNew), and the employee workstation (Win-10).
 
-  + [ ] Scan for open ports
-  + [ ] Scan for running services
-  + [ ] Scan for sensitive files
+  + [ x ] Scan for open ports
+  + [ x ] Scan for running services
+  + [ x ] Scan for sensitive files
 
 > You also recall that there is sometimes a hidden folder that stores access credentials by default. You should be able to reveal sensitive data by:
 
-  + [ ] Running a directory scan (dirb) against DMZIServer using the Udacity wordlist
-  + [ ] Reveal root access to the DMZIserver
+  + [ x ] Running a directory scan (dirb) against DMZIServer using the Udacity wordlist
+  + [ x ] Reveal root access to the DMZIserver
 
 > Addition
-  + [ ] Research software versions on all servers (Win 10, DMZI, Debian x64)
+  + [ x ] Research software versions on all servers (Win 10, DMZI, Debian x64)
 
 III. Exploitation
 > 1 server has a vulnerability version of Xampp -> You need to exploit this and gain access to the target.
-  + [ ] Gain access to the target through Xampp vulnerability (Maybe this vul is on the win10 machine)
+  + [ x ] Gain access to the target through Xampp vulnerability (Maybe this vul is on the win10 machine)
 
 > The SSH credentials for the payroll server (Debianx64DMZOnCloudNew) can also be cracked. From the course, we know the username is admin123, and we need to try and crack the password. Use the Hydra tool against the Udacity wordlist (/usr/share/wordlist/Udacity.txt) to crack the password and gain ssh access. If you are unsure what syntax to use to run the password crack, use the help (-h) command or research the world wide web.
-  + [ ] Gain unauthenticated access to the employee workstation (win-10) by exploiting a vulnerable application. (XAMPP)
-  + [ ] Crark the SSH root credentials to payroll server (Debianx64DMZOnCloudNew)
+  + [ x ] Gain unauthenticated access to the employee workstation (win-10) by exploiting a vulnerable application. (XAMPP)
+  + [ x ] Crark the SSH root credentials to payroll server (Debianx64DMZOnCloudNew)
 
 IV. Reporting
 > We will need: 
